@@ -3,7 +3,8 @@
 	"package": "com.zhengzhengyiyimc.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"entity.EnderPearlEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
