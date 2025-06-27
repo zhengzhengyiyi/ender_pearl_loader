@@ -1,23 +1,11 @@
 {
   "mappings": {
-    "com/zhengzhengyiyimc/mixin/ExampleMixin": {
-      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
-    },
-    "com/zhengzhengyiyimc/mixin/client/ExampleClientMixin": {
-      "run": "Lnet/minecraft/class_310;method_1514()V"
-    },
     "com/zhengzhengyiyimc/mixin/entity/EnderPearlEntityMixin": {
       "tick": "Lnet/minecraft/class_1684;method_5773()V"
     }
   },
   "data": {
     "named:intermediary": {
-      "com/zhengzhengyiyimc/mixin/ExampleMixin": {
-        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
-      },
-      "com/zhengzhengyiyimc/mixin/client/ExampleClientMixin": {
-        "run": "Lnet/minecraft/class_310;method_1514()V"
-      },
       "com/zhengzhengyiyimc/mixin/entity/EnderPearlEntityMixin": {
         "tick": "Lnet/minecraft/class_1684;method_5773()V"
       }
