@@ -2,12 +2,18 @@
   "mappings": {
     "com/zhengzhengyiyimc/mixin/client/ExampleClientMixin": {
       "run": "Lnet/minecraft/class_310;method_1514()V"
+    },
+    "com/zhengzhengyiyimc/mixin/client/FakePlayerBypassMixin": {
+      "onEntitySpawn": "Lnet/minecraft/class_634;method_11112(Lnet/minecraft/class_2604;)V"
     }
   },
   "data": {
     "named:intermediary": {
       "com/zhengzhengyiyimc/mixin/client/ExampleClientMixin": {
         "run": "Lnet/minecraft/class_310;method_1514()V"
+      },
+      "com/zhengzhengyiyimc/mixin/client/FakePlayerBypassMixin": {
+        "onEntitySpawn": "Lnet/minecraft/class_634;method_11112(Lnet/minecraft/class_2604;)V"
       }
     }
   }

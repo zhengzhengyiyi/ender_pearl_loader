@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"entity.EnderPearlEntityMixin"
+		"entity.EnderPearlEntityMixin",
+		"entity.FakePlayerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
